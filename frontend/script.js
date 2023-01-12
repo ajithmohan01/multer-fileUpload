@@ -2,7 +2,7 @@ const form = document.getElementById("form");
 
 form.addEventListener("submit", submitForm);
 
-function submitForm(e) {
+const submitForm =(e)=>{
     e.preventDefault();
     const name = document.getElementById("name");
     const files = document.getElementById("files");
